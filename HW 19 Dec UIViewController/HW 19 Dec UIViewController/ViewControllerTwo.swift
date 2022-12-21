@@ -9,9 +9,9 @@ import UIKit
 
 class ViewControllerTwo: UIViewController {
     @IBOutlet var imageView: UIImageView!
-    
+
     var selectedImage: String?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -22,6 +22,10 @@ class ViewControllerTwo: UIViewController {
             
             imageView.image = UIImage(named: imageToLoad)
             imageView.layer.borderWidth = 1
+           
+    
         }
+       
     }
 }
+
